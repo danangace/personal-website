@@ -1,3 +1,39 @@
+:root{
+  --main-bg-color: #F7FAF7;
+  --primary-color: #150485;
+  --secondary-color: #C62A88;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+}
+
+.my-font{
+  font-family: 'Inter';
+  margin-bottom: 0px;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg-btn{
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.font-homeheader{
+  font-weight: bold;
+  font-size: 55px;
+  color: #000000;
+  margin-bottom: 0px;
+  line-height: 63px;
+}
+
 .App {
   text-align: center;
 }

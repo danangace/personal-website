@@ -1,0 +1,35 @@
+.navbar-wrapper{
+  padding-top: 54px;
+}
+
+.navbar-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo{
+  cursor: pointer;
+}
+
+.nav-button-wrapper{
+  display: flex;
+}
+
+.contact-button{
+  width: 140px;
+  height: 45px;
+  background-color: var(--main-bg-color);
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.hire-button{
+  width: 140px;
+  height: 45px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: #FFFFFF;
+}

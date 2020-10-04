@@ -1,0 +1,32 @@
+.footer{
+  background-color: var(--main-bg-color);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content{
+  display: flex;
+}
+
+.left-footer{
+  width: 35%;
+}
+
+.right-footer{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1A4A4B;
+}
+
+.copyright{
+  color: #797979;
+}
+
+.footer-list{
+  padding: 6px 0px;
+}
